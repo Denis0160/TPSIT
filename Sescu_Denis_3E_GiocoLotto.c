@@ -1,4 +1,5 @@
 //Author:Sescu Denis
+//Data:08/02/2024
 
 
 #include<stdio.h>
