@@ -77,13 +77,16 @@ int main(){
         printf("La lettera non è presente\n");
     }
     
-    char stringaP[strlen(stringa)], stringaD[strlen(stringa)];
+    char stringaP[20]="", stringaD[20]="";
+    int g=0, f=0;
     
     for(int i=0; i<strlen(stringa);i++){
         if(i%2==0){
-            stringaP[i]=stringa[i];
+            stringaP[g]=stringa[i];
+            g++;
         }else{
-            stringaD[i]=stringa[i];
+            stringaD[f]=stringa[i];
+            f++;
         }
     }
     
