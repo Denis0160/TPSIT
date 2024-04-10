@@ -21,10 +21,10 @@ int main() {
 
     // Inserimento del carattere nella posizione specificata
     for (i=strlen(stringa); i>=posizioneInserimento; i--) {
-        stringa[i + 1] = stringa[i];
+        stringa[i+1]=stringa[i];
     }
     stringa[posizioneInserimento] = carattereInserito;
-    stringa[strlen(stringa) + 1] = '\0'; // Aggiornamento della lunghezza della stringa
+    stringa[strlen(stringa)+1]='\0'; // Aggiornamento della lunghezza della stringa
 
     printf("Stringa dopo l'inserimento: %s\n", stringa);
 
